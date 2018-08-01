@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+       
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link ref="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--jQuery-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--javascript-->
+    <script src="assets/javascript/app.js"></script>
+    
+
+</head>
+<body style="background-image: url('https://s3.us-west-2.amazonaws.com/kerbal-forum-uploads/monthly_2017_08/BlueSpace.jpg.5c0f825bd834bd4eefb498d4d862533e.jpg')">
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 style="text-align: center">I'll Ask the Questions!</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-sm-1">
+                <input type="button" id="begin" value="Start" style="text-align: center">
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <div id="timeCounter" style="text-align: center">Time till Space Warp:<span id="counter"> 30</span></div>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-md-6 offset-md-1">
+                <div id="questionOne" style="display: none">
+                    <h4>Question 1: What is Saturn's largest moon?</h3>
+                    <input type="radio" class="qOne" value="titan"> Titan<br>
+                    <input type="radio" class="qOne" value="rhea"> Rhea<br>
+                    <input type="radio" class="qOne" value="enceladus"> Enceladus<br>
+                    <input type="radio" class="qOne" value="mimas"> Mimas<br>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 offset-md-1">
+                <div id="questionTwo" style="display: none">
+                    <h3>Question 2: What is the most common element in the Universe?</h3>
+                    <input type="radio" class="qTwo" value="nitrogen"> Nitrogen<br>
+                    <input type="radio" class="qTwo" value="helium"> Helium<br>
+                    <input type="radio" class="qTwo" value="hydrogen"> Hydrogen<br>
+                    <input type="radio" class="qTwo" value="carbon"> Carbon<br>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 offset-md-1">
+                <div id="questionThree" style="display: none">
+                    <h3>Question 3: Which planet had the strongest recorded winds?</h3>
+                    <input type="radio" class="qThree" value="venus"> Venus<br>
+                    <input type="radio" class="qThree" value="neptune"> Neptune<br>
+                    <input type="radio" class="qThree" value="jupiter"> Jupiter<br>
+                    <input type="radio" class="qThree" value="mars"> Mars<br>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <div id="results" style="display: none">
+                    <h3 style="text-align: center">Your journey debrief!</h3>
+                    <div id="display" style="text-align: center"></div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <div id="gifDisplay" style="text-align: center; display: none">
+                    <div id="text"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <div id="gifDisplayTwo" style="text-align: center; display: none">
+                    <div id="textTwo"></div>
+                </div>
+            </div>
+        </div>    
+        
+        
+
+    </div>
+</div>
+
+
+
+    
+</body>
+</html>
