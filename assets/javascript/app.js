@@ -11,7 +11,7 @@ var show;
 
 //Setting up API
 var pullGif = "space";
-var queryURL = "http://api.giphy.com/v1/gifs/search?q=&api_key=HuGV3gRl0oqKFxJaysFFsXHirUlgKdNe";
+var queryURL = "https://api.giphy.com/v1/gifs/search?q=&api_key=HuGV3gRl0oqKFxJaysFFsXHirUlgKdNe";
 
 //API ajax function
 $.ajax({
